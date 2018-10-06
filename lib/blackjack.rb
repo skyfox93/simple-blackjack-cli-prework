@@ -15,7 +15,7 @@ puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
-  gets
+  gets.chomp
 end
 
 def end_game(total)
