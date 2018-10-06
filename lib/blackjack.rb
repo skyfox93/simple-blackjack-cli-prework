@@ -39,7 +39,7 @@ user_resp=get_user_input()
    total
   elsif user_resp=='s'
   total
-  else invalid_command()
+  else invalid_command
   end
 end
 
