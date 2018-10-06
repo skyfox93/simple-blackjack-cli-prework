@@ -25,9 +25,9 @@ end
 def initial_round
 total=0;
 total+=deal_card
-display_card_total
+display_card_total total
 total+=deal_card
-display_card_total
+display_card_total total
 total
 end
 
@@ -36,7 +36,7 @@ prompt_user
 user_resp=get_user_input
  if user_resp=="h"
    total+=deal_card
-   display total total
+   display_card_total total
    total
   elsif user_resp=="s"
   total
