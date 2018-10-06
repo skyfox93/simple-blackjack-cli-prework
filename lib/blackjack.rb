@@ -31,7 +31,7 @@ display_card_total
 total
 end
 
-def hit? total
+def hit? (total)
 prompt_user
 user_resp=get_user_input
  if user_resp=="h"
