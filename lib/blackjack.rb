@@ -25,7 +25,9 @@ end
 def initial_round
 total=0;
 total+=deal_card
+display_card_total
 total+=deal_card
+display_card_total
 total
 end
 
