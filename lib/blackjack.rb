@@ -57,4 +57,5 @@ while total<=21
   hit? total
   display_card_total total
 end
+end
     
