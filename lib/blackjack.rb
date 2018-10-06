@@ -27,10 +27,10 @@ total=0;
 total+=deal_card
 total+=deal_card
 display_card_total(total)
-hit?(total)
+hit?  total
 end
 
-def hit?(total)
+def hit? total
 prompt_user()
 user_resp=get_user_input()
  if user_resp=='h'
