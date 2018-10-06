@@ -7,7 +7,7 @@ rand(1..11)
 end
 
 def display_card_total(total)
-"Your cards add up to #{card total}"end
+"Your cards add up to #{total}"end
 
 def prompt_user
 puts "Type 'h' to hit or 's' to stay"
