@@ -28,6 +28,7 @@ total+=deal_card
 total+=deal_card
 display_card_total total
 hit?  total
+total
 end
 
 def hit? total
