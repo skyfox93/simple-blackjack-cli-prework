@@ -40,7 +40,7 @@ user_resp=get_user_input()
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command."
 end
 
 #####################################################
