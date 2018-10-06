@@ -35,7 +35,10 @@ prompt_user
 user_resp=get_user_input()
  if user_resp=='h'
    total+=deal_card()
+   display total(total)
+   total
   elsif user_resp=='s'
+  total
   else invalid_command()
   end
 end
