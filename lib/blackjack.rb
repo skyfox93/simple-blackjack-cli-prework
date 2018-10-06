@@ -32,7 +32,7 @@ end
 
 def hit? total
 prompt_user
-user_resp=get_user_input()
+user_resp=get_user_input
  if user_resp=='h'
    total+=deal_card
    display total total
