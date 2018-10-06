@@ -3,7 +3,7 @@ puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
-random(1..11)
+rand(1..11)
 end
 
 def display_card_total(total)
