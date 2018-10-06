@@ -22,11 +22,19 @@ puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
-  # code #initial_round here
+total=0;
+total+=deal_card()
+total+=deal_card()
+display_card_total(total)
+hit?(total)
 end
 
-def hit?
-  # code hit? here
+def hit?(total)
+prompt_user()
+user_resp=get_user_input()
+ if(user_resp=='s')
+   total+=deal_card()
+  elsif
 end
 
 def invalid_command
