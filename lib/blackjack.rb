@@ -34,11 +34,11 @@ end
 def hit? total
 prompt_user
 user_resp=get_user_input
- if user_resp=='h'
+ if user_resp=="h"
    total+=deal_card
    display total total
    total
-  elsif user_resp=='s'
+  elsif user_resp=="s"
   total
   else invalid_command
   end
